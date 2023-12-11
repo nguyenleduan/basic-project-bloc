@@ -1,0 +1,1 @@
+ /Users/duan/Desktop/Main/Project/onlinica/.dart_tool/flutter_build/974579f3236c44a025ff38fdb80bd50a/native_assets.yaml: 

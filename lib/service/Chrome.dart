@@ -1,0 +1,15 @@
+
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+
+class MyChromeSafariBrowser extends ChromeSafariBrowser {
+  @override
+  void onOpened() {
+    print("ChromeSafari browser opened");
+  }
+
+
+  @override
+  void onClosed() {
+    print("ChromeSafari browser closed");
+  }
+}

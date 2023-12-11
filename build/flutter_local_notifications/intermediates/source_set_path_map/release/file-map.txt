@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-1 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-2 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-3 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-4 /Users/duan/.gradle/caches/transforms-3/e0207cf7f8f4da83a1d99cb201e76fe7/transformed/media-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 /Users/duan/.pub-cache/hosted/pub.dev/flutter_local_notifications-15.1.0+1/android/src/main/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 /Users/duan/.pub-cache/hosted/pub.dev/flutter_local_notifications-15.1.0+1/android/src/release/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/generated/res/pngs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/generated/res/resValues/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/generated/res/rs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_res/release

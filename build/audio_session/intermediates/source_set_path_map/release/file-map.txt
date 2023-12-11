@@ -1,0 +1,15 @@
+com.ryanheise.audio_session-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+com.ryanheise.audio_session-jetified-media2-session-1.2.1-1 /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/res
+com.ryanheise.audio_session-jetified-window-1.0.0-beta04-2 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+com.ryanheise.audio_session-media-1.4.1-3 /Users/duan/.gradle/caches/transforms-3/439881f57abd9b116bdbf7cabf8824d9/transformed/media-1.4.1/res
+com.ryanheise.audio_session-jetified-annotation-experimental-1.1.0-4 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+com.ryanheise.audio_session-core-1.6.0-5 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+com.ryanheise.audio_session-jetified-media2-common-1.2.1-6 /Users/duan/.gradle/caches/transforms-3/ee9f9702ee453887d7dd9020759c31a1/transformed/jetified-media2-common-1.2.1/res
+com.ryanheise.audio_session-main-7 /Users/duan/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/main/res
+com.ryanheise.audio_session-release-8 /Users/duan/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/release/res
+com.ryanheise.audio_session-pngs-9 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/generated/res/pngs/release
+com.ryanheise.audio_session-resValues-10 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/generated/res/resValues/release
+com.ryanheise.audio_session-rs-11 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/generated/res/rs/release
+com.ryanheise.audio_session-mergeReleaseResources-12 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ryanheise.audio_session-mergeReleaseResources-13 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ryanheise.audio_session-merged_res-14 /Users/duan/Desktop/Main/Project/onlinica/build/audio_session/intermediates/merged_res/release

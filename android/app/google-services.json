@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "765672120056",
+    "project_id": "onlinica-db3a0",
+    "storage_bucket": "onlinica-db3a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765672120056:android:b53e7e9185b55ed4d0250d",
+        "android_client_info": {
+          "package_name": "vtc.onlinica.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765672120056-1vjbr2hnp4f997tnjg9ntjdae58duh3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTtnOr9ubjXgT9xY5T-Vx_J7yHBt1DDeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765672120056-1vjbr2hnp4f997tnjg9ntjdae58duh3f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765672120056-2n8qq0dbe19sp7cam9ll1lg2ehpeq1jo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onlinica.omn1solution.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

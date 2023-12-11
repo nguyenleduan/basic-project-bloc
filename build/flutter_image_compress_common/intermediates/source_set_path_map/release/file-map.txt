@@ -1,0 +1,12 @@
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-window-1.0.0-beta04-1 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-jetified-annotation-experimental-1.1.0-2 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-core-1.6.0-3 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-main-4 /Users/duan/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/android/src/main/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-release-5 /Users/duan/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/android/src/release/res
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-pngs-6 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/generated/res/pngs/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-resValues-7 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/generated/res/resValues/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-rs-8 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/generated/res/rs/release
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-mergeReleaseResources-9 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-mergeReleaseResources-10 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.fluttercandies.flutter_image_compress.flutter_image_compress_common-merged_res-11 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_image_compress_common/intermediates/merged_res/release

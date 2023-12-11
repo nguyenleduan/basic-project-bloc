@@ -1,0 +1,759 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vtc.onlinica.app"
+4    android:versionCode="2"
+5    android:versionName="1.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:2:22-64
+12
+13    <queries>
+13-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:3:5-6:15
+14        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+14-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:4:9-89
+14-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:4:19-86
+15
+16        <intent>
+16-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-10:18
+17            <action android:name="android.support.customtabs.action.CustomTabsService" />
+17-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-90
+17-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:21-87
+18        </intent>
+19        <intent>
+19-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+20            <action android:name="android.media.browse.MediaBrowserService" />
+20-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+20-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+21        </intent>
+22        <intent>
+22-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+23            <action android:name="androidx.media2.session.MediaSessionService" />
+23-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+23-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+24        </intent>
+25        <intent>
+25-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+26            <action android:name="androidx.media2.session.MediaLibraryService" />
+26-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+26-->[androidx.media2:media2-session:1.2.1] /Users/duan/.gradle/caches/transforms-3/0985e192359062b5adbf6733f9373e7c/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+30-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+31-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+31-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-77
+32-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-74
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+33-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
+34-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
+35    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+35-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+35-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+36    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+36-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.firebase:firebase-iid:21.1.0] /Users/duan/.gradle/caches/transforms-3/78a780b379ebb35306e5aa21921cde1a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+37-->[com.google.firebase:firebase-iid:21.1.0] /Users/duan/.gradle/caches/transforms-3/78a780b379ebb35306e5aa21921cde1a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+38
+39    <permission
+39-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+40        android:name="vtc.onlinica.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="vtc.onlinica.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.android.installreferrer:installreferrer:1.0] /Users/duan/.gradle/caches/transforms-3/5226cf336ab8f8f4b244927cac55d2f2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+44-->[com.android.installreferrer:installreferrer:1.0] /Users/duan/.gradle/caches/transforms-3/5226cf336ab8f8f4b244927cac55d2f2/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+45
+46    <application
+47        android:name="android.app.Application"
+47-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:9:9-42
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.10.1] /Users/duan/.gradle/caches/transforms-3/19534bbcecda215403b25a5af1a8762e/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+49        android:icon="@mipmap/launcher_icon"
+49-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:10:9-45
+50        android:label="onlinica"
+50-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:8:9-33
+51        android:supportsRtl="true" >
+51-->[com.facebook.android:facebook-login:12.1.0] /Users/duan/.gradle/caches/transforms-3/c5ed94b0831fc1cd4ecc7eb500fc1d1c/transformed/jetified-facebook-login-12.1.0/AndroidManifest.xml:28:18-44
+52        <activity
+52-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:11:9-27:20
+53            android:name="vtc.onlinica.app.MainActivity"
+53-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:12:13-41
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:16:13-163
+55            android:exported="true"
+55-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:13:13-36
+56            android:hardwareAccelerated="true"
+56-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:17:13-47
+57            android:launchMode="singleTop"
+57-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:14:13-43
+58            android:theme="@style/LaunchTheme"
+58-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:15:13-47
+59            android:windowSoftInputMode="adjustResize" >
+59-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:18:13-55
+60            <meta-data
+60-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:19:13-22:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:20:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:21:15-52
+63
+64            <intent-filter>
+64-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:23:13-26:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:24:17-68
+65-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:24:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:25:17-76
+67-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:25:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <!-- facebook configs -->
+72        <meta-data
+72-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:30:9-107
+73            android:name="com.facebook.sdk.ApplicationId"
+73-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:30:20-65
+74            android:value="@string/facebook_app_id" />
+74-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:30:66-105
+75        <meta-data
+75-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:31:9-111
+76            android:name="com.facebook.sdk.ClientToken"
+76-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:31:20-63
+77            android:value="@string/facebook_client_token" />
+77-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:31:64-109
+78        <meta-data
+78-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:32:9-100
+79            android:name="google_analytics_adid_collection_enabled"
+79-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:32:20-75
+80            android:value="false" />
+80-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:32:76-97
+81
+82        <activity
+82-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:34:9-37:48
+83            android:name="com.facebook.FacebookActivity"
+83-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:34:19-63
+84            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+84-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:35:13-113
+85            android:label="@string/app_name"
+85-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:37:13-45
+86            android:theme="@style/com_facebook_activity_theme" />
+86-->[com.facebook.android:facebook-common:12.1.0] /Users/duan/.gradle/caches/transforms-3/33a5ecf908adae095741515ae7542965/transformed/jetified-facebook-common-12.1.0/AndroidManifest.xml:33:13-63
+87        <activity
+87-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:38:9-47:20
+88            android:name="com.facebook.CustomTabActivity"
+88-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:39:13-58
+89            android:exported="true" >
+89-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:40:13-36
+90            <intent-filter>
+90-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:41:13-46:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:17-69
+91-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:17-76
+93-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:17-78
+94-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:27-75
+95
+96                <data android:scheme="@string/fb_login_protocol_scheme" />
+96-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:17-75
+96-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:23-72
+97            </intent-filter>
+98            <intent-filter>
+98-->[com.facebook.android:facebook-common:12.1.0] /Users/duan/.gradle/caches/transforms-3/33a5ecf908adae095741515ae7542965/transformed/jetified-facebook-common-12.1.0/AndroidManifest.xml:39:13-48:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:17-69
+99-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:17-76
+101-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:17-78
+102-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:27-75
+103
+104                <data
+104-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:17-75
+105                    android:host="cct.vtc.onlinica.app"
+106                    android:scheme="fbconnect" />
+106-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:23-72
+107            </intent-filter>
+108        </activity>
+109
+110        <meta-data
+110-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:49:9-51:33
+111            android:name="flutterEmbedding"
+111-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:50:13-44
+112            android:value="2" />
+112-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:51:13-30
+113
+114        <service
+114-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-17:72
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+115-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-107
+116            android:exported="false"
+116-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-69
+118        <service
+118-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-24:19
+119            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+119-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-97
+120            android:exported="false" >
+120-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+121            <intent-filter>
+121-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+122-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+123            </intent-filter>
+124        </service>
+125
+126        <receiver
+126-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33:20
+127            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+127-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-98
+128            android:exported="true"
+128-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+129            android:permission="com.google.android.c2dm.permission.SEND" >
+129-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-73
+130            <intent-filter>
+130-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+131                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+131-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+131-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+132            </intent-filter>
+133        </receiver>
+134
+135        <service
+135-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-39:19
+136            android:name="com.google.firebase.components.ComponentDiscoveryService"
+136-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:18-89
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+139            <meta-data
+139-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-38:85
+140                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+140-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:17-128
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:17-82
+142            <meta-data
+142-->[:firebase_auth] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+143                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+143-->[:firebase_auth] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[:firebase_auth] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+145            <meta-data
+145-->[:firebase_core] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+146                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+146-->[:firebase_core] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[:firebase_core] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+149                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+149-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-iid:21.1.0] /Users/duan/.gradle/caches/transforms-3/78a780b379ebb35306e5aa21921cde1a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+152                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+152-->[com.google.firebase:firebase-iid:21.1.0] /Users/duan/.gradle/caches/transforms-3/78a780b379ebb35306e5aa21921cde1a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-iid:21.1.0] /Users/duan/.gradle/caches/transforms-3/78a780b379ebb35306e5aa21921cde1a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+155                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+155-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-installations:17.1.3] /Users/duan/.gradle/caches/transforms-3/2140b4a1803e9f9b74ac80eae284a831/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+158                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+158-->[com.google.firebase:firebase-installations:17.1.3] /Users/duan/.gradle/caches/transforms-3/2140b4a1803e9f9b74ac80eae284a831/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-installations:17.1.3] /Users/duan/.gradle/caches/transforms-3/2140b4a1803e9f9b74ac80eae284a831/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duan/.gradle/caches/transforms-3/72463894aec76c832ada5fd1a3908b60/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+161                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+161-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duan/.gradle/caches/transforms-3/72463894aec76c832ada5fd1a3908b60/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/duan/.gradle/caches/transforms-3/72463894aec76c832ada5fd1a3908b60/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+163        </service>
+164
+165        <provider
+165-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+166-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
+167            android:authorities="vtc.onlinica.app.flutterfirebasemessaginginitprovider"
+167-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
+168            android:exported="false"
+168-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+169            android:initOrder="99" />
+169-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-35
+170
+171        <receiver
+171-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+172            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+172-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-91
+173            android:exported="false" />
+173-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+174        <receiver
+174-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:40
+175            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+175-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-97
+176            android:exported="false" />
+176-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+177        <receiver
+177-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-29:20
+178            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+178-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-101
+179            android:exported="false" >
+179-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+180            <intent-filter>
+180-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-28:29
+181                <action android:name="android.intent.action.BOOT_COMPLETED" />
+181-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
+181-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
+182                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+182-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-84
+182-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-81
+183                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+183-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-82
+183-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-79
+184                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+184-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-82
+184-->[:flutter_local_notifications] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-79
+185            </intent-filter>
+186        </receiver>
+187
+188        <activity
+188-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:47
+189            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+189-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-104
+190            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+190-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-137
+191            android:exported="false"
+191-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+192            android:theme="@style/AppTheme" />
+192-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-44
+193        <activity
+193-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-22:55
+194            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+194-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-112
+195            android:exported="false"
+195-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+196            android:theme="@style/ThemeTransparent" />
+196-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-52
+197        <activity
+197-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-26:55
+198            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+198-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-106
+199            android:exported="false"
+199-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-37
+200            android:theme="@style/ThemeTransparent" />
+200-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-52
+201        <activity
+201-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-31:55
+202            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+202-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-126
+203            android:exported="false"
+203-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-37
+204            android:launchMode="singleInstance"
+204-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-48
+205            android:theme="@style/ThemeTransparent" />
+205-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-52
+206        <activity
+206-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-36:55
+207            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+207-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-120
+208            android:exported="false"
+208-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-37
+209            android:launchMode="singleInstance"
+209-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-48
+210            android:theme="@style/ThemeTransparent" />
+210-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-52
+211
+212        <receiver
+212-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-41:40
+213            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+213-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-111
+214            android:enabled="true"
+214-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-35
+215            android:exported="false" />
+215-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-37
+216
+217        <meta-data
+217-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-45:36
+218            android:name="io.flutter.embedded_views_preview"
+218-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-61
+219            android:value="true" />
+219-->[:flutter_inappwebview] /Users/duan/Desktop/Main/Project/onlinica/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-33
+220
+221        <provider
+221-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+222            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+222-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+223            android:authorities="vtc.onlinica.app.flutter.image_provider"
+223-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+224            android:exported="false"
+224-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+225            android:grantUriPermissions="true" >
+225-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+226            <meta-data
+226-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+227                android:name="android.support.FILE_PROVIDER_PATHS"
+227-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+228                android:resource="@xml/flutter_image_picker_file_paths" />
+228-->[:image_picker_android] /Users/duan/Desktop/Main/Project/onlinica/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+229        </provider>
+230
+231        <activity
+231-->[:url_launcher_android] /Users/duan/Desktop/Main/Project/onlinica/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+232            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+232-->[:url_launcher_android] /Users/duan/Desktop/Main/Project/onlinica/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+233            android:exported="false"
+233-->[:url_launcher_android] /Users/duan/Desktop/Main/Project/onlinica/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+234            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+234-->[:url_launcher_android] /Users/duan/Desktop/Main/Project/onlinica/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+235        <activity android:name="com.facebook.CustomTabMainActivity" />
+235-->[com.facebook.android:facebook-common:12.1.0] /Users/duan/.gradle/caches/transforms-3/33a5ecf908adae095741515ae7542965/transformed/jetified-facebook-common-12.1.0/AndroidManifest.xml:34:9-71
+235-->[com.facebook.android:facebook-common:12.1.0] /Users/duan/.gradle/caches/transforms-3/33a5ecf908adae095741515ae7542965/transformed/jetified-facebook-common-12.1.0/AndroidManifest.xml:34:19-68
+236        <activity
+236-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+237            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+237-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+238            android:excludeFromRecents="true"
+238-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+240-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+241        <!--
+242            Service handling Google Sign-In user revocation. For apps that do not integrate with
+243            Google Sign-In, this service will never be started.
+244        -->
+245        <service
+245-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+246            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+246-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+247            android:exported="true"
+247-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+248            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+248-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+249            android:visibleToInstantApps="true" />
+249-->[com.google.android.gms:play-services-auth:20.7.0] /Users/duan/.gradle/caches/transforms-3/0c23e01b7ac7e457b011f6aa203262d4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+250
+251        <activity
+251-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+252            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+252-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+253            android:excludeFromRecents="true"
+253-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+254            android:exported="true"
+254-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+255            android:launchMode="singleTask"
+255-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+256            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+256-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+257            <intent-filter>
+257-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+258                <action android:name="android.intent.action.VIEW" />
+258-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:17-69
+258-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:25-66
+259
+260                <category android:name="android.intent.category.DEFAULT" />
+260-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:17-76
+260-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:27-73
+261                <category android:name="android.intent.category.BROWSABLE" />
+261-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:17-78
+261-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:27-75
+262
+263                <data
+263-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:17-75
+264                    android:host="firebase.auth"
+265                    android:path="/"
+266                    android:scheme="genericidp" />
+266-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:23-72
+267            </intent-filter>
+268        </activity>
+269        <activity
+269-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+270            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+270-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+271            android:excludeFromRecents="true"
+271-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+272            android:exported="true"
+272-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+273            android:launchMode="singleTask"
+273-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+274            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+274-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+275            <intent-filter>
+275-->[com.google.firebase:firebase-auth:22.1.0] /Users/duan/.gradle/caches/transforms-3/3ff53bd2d384c821a1355c45b4e7bafd/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+276                <action android:name="android.intent.action.VIEW" />
+276-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:17-69
+276-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:42:25-66
+277
+278                <category android:name="android.intent.category.DEFAULT" />
+278-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:17-76
+278-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:43:27-73
+279                <category android:name="android.intent.category.BROWSABLE" />
+279-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:17-78
+279-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:44:27-75
+280
+281                <data
+281-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:17-75
+282                    android:host="firebase.auth"
+283                    android:path="/"
+284                    android:scheme="recaptcha" />
+284-->/Users/duan/Desktop/Main/Project/onlinica/android/app/src/main/AndroidManifest.xml:45:23-72
+285            </intent-filter>
+286        </activity>
+287
+288        <receiver
+288-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+289            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+289-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+290            android:exported="true"
+290-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+291            android:permission="com.google.android.c2dm.permission.SEND" >
+291-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+292            <intent-filter>
+292-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+293                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+293-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+293-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+294            </intent-filter>
+295        </receiver>
+296        <!--
+297             FirebaseMessagingService performs security checks at runtime,
+298             but set to not exported to explicitly avoid allowing another app to call it.
+299        -->
+300        <service
+300-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+301            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+301-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+302            android:directBootAware="true"
+302-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+303            android:exported="false" >
+303-->[com.google.firebase:firebase-messaging:23.2.0] /Users/duan/.gradle/caches/transforms-3/e7dc4676717ae710e111015612843f89/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+304            <intent-filter android:priority="-500" >
+304-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+305                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+305-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+305-->[:firebase_messaging] /Users/duan/Desktop/Main/Project/onlinica/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+306            </intent-filter>
+307        </service>
+308
+309        <provider
+309-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+310            android:name="com.google.firebase.provider.FirebaseInitProvider"
+310-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+311            android:authorities="vtc.onlinica.app.firebaseinitprovider"
+311-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+312            android:directBootAware="true"
+312-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+313            android:exported="false"
+313-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+314            android:initOrder="100" />
+314-->[com.google.firebase:firebase-common:20.3.3] /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+315
+316        <activity
+316-->[com.google.android.gms:play-services-base:18.0.1] /Users/duan/.gradle/caches/transforms-3/12a607b6392e05426f57edab5aeeabc0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+317            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+317-->[com.google.android.gms:play-services-base:18.0.1] /Users/duan/.gradle/caches/transforms-3/12a607b6392e05426f57edab5aeeabc0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+318            android:exported="false"
+318-->[com.google.android.gms:play-services-base:18.0.1] /Users/duan/.gradle/caches/transforms-3/12a607b6392e05426f57edab5aeeabc0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+319            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+319-->[com.google.android.gms:play-services-base:18.0.1] /Users/duan/.gradle/caches/transforms-3/12a607b6392e05426f57edab5aeeabc0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+320
+321        <meta-data
+321-->[com.google.android.gms:play-services-basement:18.2.0] /Users/duan/.gradle/caches/transforms-3/0dd83f7c6ec6fb2203017a2da0ed48e9/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+322            android:name="com.google.android.gms.version"
+322-->[com.google.android.gms:play-services-basement:18.2.0] /Users/duan/.gradle/caches/transforms-3/0dd83f7c6ec6fb2203017a2da0ed48e9/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+323            android:value="@integer/google_play_services_version" />
+323-->[com.google.android.gms:play-services-basement:18.2.0] /Users/duan/.gradle/caches/transforms-3/0dd83f7c6ec6fb2203017a2da0ed48e9/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+324
+325        <provider
+325-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+326            android:name="androidx.startup.InitializationProvider"
+326-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+327            android:authorities="vtc.onlinica.app.androidx-startup"
+327-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+328            android:exported="false" >
+328-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+329            <meta-data
+329-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+330                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+330-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+331                android:value="androidx.startup" />
+331-->[androidx.emoji2:emoji2:1.2.0] /Users/duan/.gradle/caches/transforms-3/3b8ecce597f26f112b8e24715b879ea8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+332            <meta-data
+332-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/duan/.gradle/caches/transforms-3/de2340896ce6ae149314c246aee3173c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+333                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+333-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/duan/.gradle/caches/transforms-3/de2340896ce6ae149314c246aee3173c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+334                android:value="androidx.startup" />
+334-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/duan/.gradle/caches/transforms-3/de2340896ce6ae149314c246aee3173c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+335            <meta-data
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+336                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+336-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+337                android:value="androidx.startup" />
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+338        </provider>
+339        <!--
+340         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+341         with the application context. This config is merged in with the host app's manifest,
+342         but there can only be one provider with the same authority activated at any given
+343         point; so if the end user has two or more different apps that use Facebook SDK, only the
+344         first one will be able to use the provider. To work around this problem, we use the
+345         following placeholder in the authority to identify each host application as if it was
+346         a completely different provider.
+347        -->
+348        <provider
+348-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:39:9-42:40
+349            android:name="com.facebook.internal.FacebookInitProvider"
+349-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:40:13-70
+350            android:authorities="vtc.onlinica.app.FacebookInitProvider"
+350-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:41:13-72
+351            android:exported="false" />
+351-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:42:13-37
+352
+353        <receiver
+353-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:44:9-50:20
+354            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+354-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:45:13-86
+355            android:exported="false" >
+355-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:46:13-37
+356            <intent-filter>
+356-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:47:13-49:29
+357                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+357-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:48:17-95
+357-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:48:25-92
+358            </intent-filter>
+359        </receiver>
+360        <receiver
+360-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:51:9-57:20
+361            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+361-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:52:13-118
+362            android:exported="false" >
+362-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:53:13-37
+363            <intent-filter>
+363-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:54:13-56:29
+364                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+364-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:55:17-103
+364-->[com.facebook.android:facebook-core:12.1.0] /Users/duan/.gradle/caches/transforms-3/84cec54acf7aaaf19581bf77f4cbc3ba/transformed/jetified-facebook-core-12.1.0/AndroidManifest.xml:55:25-100
+365            </intent-filter>
+366        </receiver>
+367
+368        <uses-library
+368-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+369            android:name="androidx.window.extensions"
+369-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+370            android:required="false" />
+370-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+371        <uses-library
+371-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+372            android:name="androidx.window.sidecar"
+372-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+373            android:required="false" />
+373-->[androidx.window:window:1.0.0-beta04] /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+374
+375        <receiver
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+376            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+377            android:directBootAware="false"
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+378            android:enabled="true"
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+379            android:exported="true"
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+380            android:permission="android.permission.DUMP" >
+380-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+381            <intent-filter>
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+382                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+383            </intent-filter>
+384            <intent-filter>
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+385                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+385-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+385-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+386            </intent-filter>
+387            <intent-filter>
+387-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+388                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+388-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+388-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+389            </intent-filter>
+390            <intent-filter>
+390-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+391                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+391-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+391-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/duan/.gradle/caches/transforms-3/1f07c2bb45041f0f5571e21630f84808/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+392            </intent-filter>
+393        </receiver>
+394
+395        <service
+395-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+396            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+396-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+397            android:exported="false" >
+397-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+398            <meta-data
+398-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+399                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+399-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+400                android:value="cct" />
+400-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/duan/.gradle/caches/transforms-3/d234e6862ab0cbf1c8efa3d706cf6fb6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+401        </service>
+402        <service
+402-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+403            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+403-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+404            android:exported="false"
+404-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+405            android:permission="android.permission.BIND_JOB_SERVICE" >
+405-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+406        </service>
+407
+408        <receiver
+408-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+409            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+409-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+410            android:exported="false" />
+410-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/duan/.gradle/caches/transforms-3/be228501772b29e8e8e319b7110a8427/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+411    </application>
+412
+413</manifest>

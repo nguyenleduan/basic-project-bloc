@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.1-1 /Users/duan/.gradle/caches/transforms-3/12a607b6392e05426f57edab5aeeabc0/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.3.3-2 /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-3 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-4 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-5 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-6 /Users/duan/.gradle/caches/transforms-3/b3dde516a330101e9d155b0b565ac2f8/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-7 /Users/duan/.gradle/caches/transforms-3/e07bf05cbf8cdd21569765d6165ddc2d/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 /Users/duan/.pub-cache/hosted/pub.dev/firebase_auth-4.9.0/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 /Users/duan/.pub-cache/hosted/pub.dev/firebase_auth-4.9.0/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/packaged_res/release

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Onlinica</string>
+    <string name="facebook_app_id">321101493644275</string>
+    <string name="fb_login_protocol_scheme">fb321101493644275</string>
+    <string name="facebook_client_token">2d04f97be4a2d6ff1f2dcec1b7e52c66</string>
+</resources>

@@ -1,0 +1,12 @@
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-jetified-window-1.0.0-beta04-1 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-jetified-annotation-experimental-1.1.0-2 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-core-1.6.0-3 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-main-4 /Users/duan/.pub-cache/hosted/pub.dev/flutter_statusbarcolor_ns-0.5.0/android/src/main/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-release-5 /Users/duan/.pub-cache/hosted/pub.dev/flutter_statusbarcolor_ns-0.5.0/android/src/release/res
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-pngs-6 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/generated/res/pngs/release
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-resValues-7 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/generated/res/resValues/release
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-rs-8 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/generated/res/rs/release
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-mergeReleaseResources-9 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-mergeReleaseResources-10 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.sameer.flutterstatusbarcolor.flutterstatusbarcolor.flutter_statusbarcolor_ns-merged_res-11 /Users/duan/Desktop/Main/Project/onlinica/build/flutter_statusbarcolor_ns/intermediates/merged_res/release

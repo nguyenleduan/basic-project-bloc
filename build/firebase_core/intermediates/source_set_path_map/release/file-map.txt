@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-0 /Users/duan/.gradle/caches/transforms-3/090ad86452c79274566b49625d01dc91/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.3-1 /Users/duan/.gradle/caches/transforms-3/1f3015413b8382457f0e38da6a851e97/transformed/jetified-firebase-common-20.3.3/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-2 /Users/duan/.gradle/caches/transforms-3/2344cbfa0064ab495a8a213bf9903a6e/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-3 /Users/duan/.gradle/caches/transforms-3/89164f3b6955f49d6974a74795b48df8/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-4 /Users/duan/.gradle/caches/transforms-3/a9a14b4b3b89d5bcdbb5e5b70104f845/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-5 /Users/duan/.gradle/caches/transforms-3/b3dde516a330101e9d155b0b565ac2f8/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/duan/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/duan/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/duan/Desktop/Main/Project/onlinica/build/firebase_core/intermediates/merged_res/release
